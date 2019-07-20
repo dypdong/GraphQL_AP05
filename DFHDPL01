@@ -1,4 +1,4 @@
-CICS5505//DFH$DPLY JOB CLASS=A,MSGCLASS=A,NOTIFY=&SYSUID
+//DFH$DPLY JOB CLASS=A,MSGCLASS=A,NOTIFY=&SYSUID
 //*
 //*********************************************************************
 //*                                                                   *
