@@ -53,16 +53,16 @@
        CMAS(CICS55CM);
  
  UNDEPLOY BUNDLE(GQBUNDLE)
-          SCOPE(CICS5520)
+          SCOPE(CICS5505)
           STATE(DISCARDED);
  
  DEPLOY BUNDLE(GQBUNDLE)
-        SCOPE(CICS5520)
-    BUNDLEDIR(/cicssvy/cics5520/mybundles/AP2019GraphQL_1.0.0)
+        SCOPE(CICS5505)
+    BUNDLEDIR(/cicssvy/cics5505/mybundles/AP2019GraphQL_1.0.0)
         STATE(ENABLED);
 
    SET PROGRAM(FCBOOK)
-       SCOPE(CICS5520)
+       SCOPE(CICS5505)
        NEWCOPY;
 
 *
